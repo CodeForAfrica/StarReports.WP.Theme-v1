@@ -204,6 +204,7 @@ a:hover {
   margin-top: 35px;
 }
 #top-nav #site-navigation {
+  display: none;
   margin-bottom: 50px;
   text-align: center;
   font-size: 13px;
