@@ -45,14 +45,14 @@ a:hover {
 body {
   overflow-x: hidden;
   font-family: "Noto Sans", sans-serif;
-  color: #ad4f18;
+  color: #004689;
 }
 #content {
   background: #ffffff;
   clear: both;
 }
 a {
-  color: #ad4f18;
+  color: #004689;
   transition: 0.4s all ease;
 }
 a:visited {
@@ -174,7 +174,7 @@ a:hover {
   margin-bottom: 5px;
 }
 #masthead .site-title a {
-  color: #ad4f18;
+  color: #004689;
   font-size: 32px;
   -webkit-backface-visibility: hidden;
   -webkit-transform-style: flat;
@@ -200,7 +200,7 @@ a:hover {
 #top-nav {
   clear: both;
   display: block;
-  border-top: solid 2px #ad4f18;
+  border-top: solid 2px #004689;
   margin-top: 35px;
 }
 #top-nav #site-navigation {
@@ -217,7 +217,7 @@ a:hover {
   font-family: "Noto Sans", sans-serif;
 }
 #top-nav #site-navigation a:hover {
-  color: #ad4f18;
+  color: #004689;
   background: #f2f2f2;
 }
 #top-nav #site-navigation ul {
@@ -256,10 +256,10 @@ a:hover {
   top: 80%;
   left: 0;
   width: 100%;
-  border-left: solid 2px #ad4f18;
+  border-left: solid 2px #004689;
   height: 2px;
   opacity: 0;
-  background: #ad4f18;
+  background: #004689;
   content: '';
   transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
@@ -547,7 +547,7 @@ a:hover {
   margin-left: -15px;
   display: inline-block;
   padding-bottom: 10px;
-  border-bottom: dotted 2px #ad4f18;
+  border-bottom: dotted 2px #004689;
 }
 @media screen and (max-width: 768px) {
   #home-title {
@@ -564,7 +564,7 @@ a:hover {
 }
 #primary article .after-thumb .entry-title a {
   font-size: 22px;
-  color: #ad4f18;
+  color: #004689;
 }
 #primary article .after-thumb .entry-title a:hover {
   color: #c14a04;
@@ -701,7 +701,7 @@ a:hover {
   font-size: 17px;
 }
 #primary article.grid2 .out-thumb h1.entry-title a {
-  color: #b14e14;
+  color: #ee2b2a;
 }
 #primary article.grid2 .out-thumb h1.entry-title a:hover {
   color: #787878;
@@ -788,7 +788,7 @@ a:hover {
   font-family: 'Michroma', Arial, sans-serif;
 }
 #primary-mono article.page h1.entry-title {
-  border-bottom: solid 2px #ad4f18;
+  border-bottom: solid 2px #004689;
   margin-bottom: 20px;
   margin-top: 12px;
 }
@@ -807,7 +807,7 @@ a:hover {
 }
 #secondary h1.widget-title {
   font-size: 15px;
-  border-bottom: solid 2px #ad4f18;
+  border-bottom: solid 2px #004689;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
@@ -817,7 +817,7 @@ a:hover {
   font-weight: normal;
 }
 #secondary a {
-  color: #ad4f18;
+  color: #004689;
 }
 #secondary a:hover {
   color: #929292;
@@ -849,7 +849,7 @@ article h3 {
 }
 /* --------------- archives -------------- */
 .archive section#primary h1.page-title {
-  border-bottom: solid 2px #ad4f18;
+  border-bottom: solid 2px #004689;
   margin-bottom: 20px;
   margin-top: 11px;
 }
@@ -967,7 +967,7 @@ article h3 {
 }
 /* -------------- footer widget area -------- */
 #footer-sidebar {
-  border-top: solid 5px #ad4f18;
+  border-top: solid 5px #004689;
   padding-top: 20px;
   background: url(../images/pattern2.png) top left repeat-x, #f9f9f9;
   margin-top: 30px;
@@ -988,7 +988,7 @@ article h3 {
   text-align: center;
   border-top: solid 1px #eee;
   padding: 15px;
-  background: #ad4f18;
+  background: #004689;
   padding-bottom: 4px;
   color: #eee;
 }
