@@ -46,7 +46,9 @@
 					<?php if( $option_setting['logo']['url'] != "" ) : ?>
 						<div id="site-logo">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url($option_setting['logo']['url']) ?>" style="width:70px"></a>
-<span class="logo-description" style="font-size: xx-large;float: right;font-weight: 100 !important;"><?php bloginfo( 'description' ); ?></span>
+<span class="logo-description" style="float: right;font-weight: 100 !important;">
+    <a target="_blank" href="https://play.google.com/store/apps/details?id=org.codeforafrica.starreports"><img src="<?php echo get_template_directory_uri()."/defaults/images/play.png"; ?>" style="height:60px; margin-right:20px"></a>
+</span>
 						</div>
 					<?php else : ?>	
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-hover="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

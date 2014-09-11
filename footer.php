@@ -16,7 +16,8 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">
 		<div class="site-info col-md-4">
-			<?php printf( __( 'Powered by %1$s Theme', 'professional' ), '<a href="http://inkhive.com" rel="designer">Professional</a>' ); ?>
+            <a href="https://github.com/CodeForAfrica/StarReports.WP.Theme" target="_blank"><img src="<?php echo get_template_directory_uri()."/defaults/images/github.png"; ?>" style="height:20px;margin-right:10px">
+            <i>Code is Open Source and available on Github</i></a>
 		</div><!-- .site-info -->
 		<div class="footer-menu col-md-8">
 			<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
