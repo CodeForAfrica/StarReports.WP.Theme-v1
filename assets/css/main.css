@@ -907,7 +907,7 @@ article h3 {
   /*  border: 1px solid desaturate(@default-background, 55%); */
   border-left-width: 0;
   display: inline-block;
-  color: #86593f;
+  color: #ee2b2a;
 }
 .pagination ul  > li:first-child  > a,
 .pagination ul  > li:first-child  > span {
