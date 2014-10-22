@@ -526,7 +526,7 @@ a:hover {
 }
 /* -------------------- Content ------------------ */
 #content {
-  padding-top: 10px;
+  padding-top: 10px !important;
 }
 .page-header {
   margin-top: -20px;
@@ -726,6 +726,7 @@ a:hover {
 }
 #primary-mono h1.entry-title {
   font-size: 32px;
+    font-family: georgia, "sans-serif" !important;
 }
 #primary-mono .entry-meta {
   font-size: 13px;
