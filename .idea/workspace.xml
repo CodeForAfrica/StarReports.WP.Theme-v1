@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60fcb4b7-79a1-4671-99a3-07b9a183ff59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="professional.iws" />
@@ -41,7 +39,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="50" selection-start="5200" selection-end="5200" vertical-scroll-proportion="0.39228296" vertical-offset="2936" max-vertical-offset="17760">
+            <state line="211" column="21" selection-start="5149" selection-end="5149" vertical-scroll-proportion="0.34405145" vertical-offset="2951" max-vertical-offset="17775">
               <folding />
             </state>
           </provider>
@@ -59,7 +57,7 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="540">
+            <state line="27" column="21" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -410,7 +408,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="540">
+        <state line="27" column="21" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
@@ -438,7 +436,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="50" selection-start="5200" selection-end="5200" vertical-scroll-proportion="0.39228296" vertical-offset="2936" max-vertical-offset="17760">
+        <state line="211" column="21" selection-start="5149" selection-end="5149" vertical-scroll-proportion="0.34405145" vertical-offset="2951" max-vertical-offset="17775">
           <folding />
         </state>
       </provider>
