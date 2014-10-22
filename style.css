@@ -56,7 +56,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'arial', sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: 400;

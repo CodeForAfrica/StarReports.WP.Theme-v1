@@ -19,48 +19,34 @@
 <body <?php body_class(); ?>>
 <?php global $option_setting; ?>
 <div id="page" class="hfeed site">
-<div id="top-bar">
-	<div class="container">
-			<div class="col-md-6">
-				<?php get_template_part('searchform', 'top') ?>
-			</div>
-			
-			<?php if(isset($option_setting['enable-social-icons'])) : 
-					if($option_setting['enable-social-icons']) : ?>
-						<div id="social-icons" class="col-md-6">
-							<?php get_template_part('social', 'fa'); ?>
-						</div>
-					<?php endif;
-					else : ?>
-						<div id="social-icons" class="col-md-6">
-							<?php get_template_part('defaults/social', 'default'); ?>
-						</div><?php
-				  endif; ?>
-	</div><!--.container-->
-</div><!--#top-bar-->
-
-<header id="masthead" class="site-header" role="banner">
-	<div class="container">
-			<div class="site-branding">
-				<?php if (isset($option_setting['logo']['url'])) : ?>
-					<?php if( $option_setting['logo']['url'] != "" ) : ?>
-						<div id="site-logo">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url($option_setting['logo']['url']) ?>" style="width:70px"></a>
+        <div class="container zone_user">
+            <div class="date_zone"><?php date_default_timezone_set("Africa/Nairobi"); echo date('l, M j<\sup>S</\sup> Y');?></div>
+            <div class="follow_us">Follow us
+                <a href="http://www.facebook.com/thestarkenya" title="Facebook" target="_blank"><img src="http://the-star.co.ke/sites/all/themes/thestar/images/social-facebook-16.png"></a>
+                <a href="http://www.twitter.com/thestarkenya" title="Twitter" target="_blank"><img src="http://the-star.co.ke/sites/all/themes/thestar/images/social-twitter-16.png"></a>
+                <a href="/rss.xml" title="RSS"><img src="http://the-star.co.ke/sites/all/themes/thestar/images/social-rss-16.png"></a>
+            </div>
+        </div>
+    <div class="container">
+        <div class="brand_header">
+            <div class="row">
+                <div class="span4">
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url($option_setting['logo']['url']) ?>"></a>
 <span class="logo-description" style="float: right;font-weight: 100 !important;">
-    <a target="_blank" href="https://play.google.com/store/apps/details?id=org.codeforafrica.starreports"><img src="<?php echo get_template_directory_uri()."/defaults/images/play.png"; ?>" style="height:60px; margin-right:20px"></a>
-</span>
-						</div>
-					<?php else : ?>	
-						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-hover="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-					<?php endif; ?>	
-				<?php else : ?>	
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-hover="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				<?php endif; ?>	
-			</div>
-	</div>		
-</header><!-- #masthead -->
+                </div>
+                <div class="span5" style="float:right;width:380px !important;margin-top: 25px;">
+                    <form class="navbar-search" action="http://the-star.co.ke/" method="post" id="search-block-form" accept-charset="UTF-8" target="_self"><div><div class="container-inline">
+                                <input title="Enter the terms you wish to search for." class="custom-search-box form-text" placeholder="" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128">
+                                <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div>
+                            <input class="custom-search-selector custom-search-types" type="hidden" name="custom_search_types" value="o-google_cse">
+                            <input type="hidden" name="form_build_id" value="form-odAZzR_CXSGeKQqwh1NfAdXxS5TNZLD1IEK_x9zCvfQ">
+                            <input type="hidden" name="form_id" value="search_block_form">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--.container-->
 
 <div id="top-nav">
 	<div class="container">

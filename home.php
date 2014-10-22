@@ -19,7 +19,7 @@ get_header(); ?>
 </div>
 	<div id="primary" class="content-area col-md-12">
 		<div id="home-title">
-			<?php _e('Latest Posts', 'professional'); ?>
+			<?php _e('Latest User Submissions', 'professional'); ?>
 		</div>
 		<main id="main" class="site-main" role="main">
 		<?php $count = 0; ?>
