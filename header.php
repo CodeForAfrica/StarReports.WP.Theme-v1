@@ -22,9 +22,9 @@
         <div class="container zone_user">
             <div class="date_zone"><?php date_default_timezone_set("Africa/Nairobi"); echo date('l, M j<\sup>S</\sup> Y');?></div>
             <div class="follow_us">Follow us
-                <a href="http://www.facebook.com/thestarkenya" title="Facebook" target="_blank"><img src="http://the-star.co.ke/sites/all/themes/thestar/images/social-facebook-16.png"></a>
-                <a href="http://www.twitter.com/thestarkenya" title="Twitter" target="_blank"><img src="http://the-star.co.ke/sites/all/themes/thestar/images/social-twitter-16.png"></a>
-                <a href="/rss.xml" title="RSS"><img src="http://the-star.co.ke/sites/all/themes/thestar/images/social-rss-16.png"></a>
+                <a href="http://www.facebook.com/thestarkenya" title="Facebook" target="_blank"><img src="http://www.the-star.co.ke/sites/all/themes/thestar/images/social-facebook-16.png"></a>
+                <a href="http://www.twitter.com/thestarkenya" title="Twitter" target="_blank"><img src="http://www.the-star.co.ke/sites/all/themes/thestar/images/social-twitter-16.png"></a>
+                <a href="/rss.xml" title="RSS"><img src="http://www.the-star.co.ke/sites/all/themes/thestar/images/social-rss-16.png"></a>
             </div>
         </div>
     <div class="container">
@@ -64,6 +64,6 @@
 	 	  else :
 	 	  	  get_template_part('defaults/slider','default');
 	 		  get_template_part('defaults/showcase','default');
-	 		 endif; ?>	  
+	 	  endif; ?>
 	
 	<div id="content" class="site-content container">
